@@ -1,0 +1,50 @@
+html {
+    min-height: 100%;
+    position: relative;
+  }
+  
+  .container-fluid {
+      padding-top: 70px;
+      padding-bottom: 70px;
+  }
+  body {
+   background-color: rgb(179, 247, 230)
+  }
+  .navbar {
+      padding-top: 15px;
+      padding-bottom: 15px;
+      border: 5px;
+      border-radius: 0px;
+      margin-bottom: 0;
+      font-size: 13px;
+      letter-spacing: 4px;
+      background-color: rgb(177, 221, 105);
+  }
+.navbar-default .navbar-brand {
+    color: #ec0808;
+    font-size: 24px;
+}
+.navbar-default .navbar-brand:hover {
+    color:blue;
+}
+.nav.navbar-nav.navbar-right li a{
+    color: #ec0808;
+}
+  .navbar-nav  li a:hover {
+      color: rgb(0, 4, 255)!important;
+  }
+  .card{
+    border: 2px solid #159909;
+    margin:2px;
+    padding: 4px;
+}
+
+#taa{
+    width: 1140px;
+    height:190px ;
+}
+
+.kong{
+    margin:3px;
+    padding:2px;
+}

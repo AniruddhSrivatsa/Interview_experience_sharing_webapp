@@ -1,0 +1,12 @@
+<%- include('partials/header'); -%>
+<h2><%=po.company%></h2>
+<p> <strong>Posting: </strong> <%=po.post%> </p>
+<p> <strong>Review: </strong> <%=po.review%> </p>
+<p> <strong>Topics: </strong> <%=po.topics%> </p>
+<p><strong>Description: </strong><%=po.description%></p>
+<br><br>
+<a href="/mod/<%=po.id%>"><button type="submit" class="btn btn-warning" name="modify">Modify</button></a>
+<form action="" method="post"><br><br>
+  <button type="submit" class="btn btn-danger" name="delete">Delete</button>
+</form>
+

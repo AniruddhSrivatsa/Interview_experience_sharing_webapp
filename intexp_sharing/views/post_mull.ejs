@@ -1,0 +1,13 @@
+<%- include('partials/header'); -%>
+<% posts.forEach(function(po){ %>
+    <h2><%=po.company%></h2>
+   <p> <strong>Posting: </strong> <%=po.post%> </p>
+   <p> <strong>Review: </strong> <%=po.review%> </p>
+   <p> <strong>Topics: </strong> <%=po.topics%> </p>
+   <p><strong>Description: </strong><%=po.description.substring(0,100)+"......"%></p> <br>
+   <a href="/details/<%=po.id%>/"><button class="btn btn-success">Expand</button></a>
+   <br><br>
+    <% }) %>
+
+
+

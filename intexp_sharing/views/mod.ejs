@@ -1,0 +1,18 @@
+<%- include('partials/header.ejs') %>
+<form method="post" action="">
+    
+    <div class="form-group">
+        <h3>Modify your entry</h3><br>
+        <label for="company">Company Name:</label>
+        <input type="text" class="form-control" name="company" value=<%= po.company %>> <br>
+        <label for="post">Job position:</label>
+        <input type="text" class="form-control" name="post" value=<%= po.post %>><br>
+        <label for="review">Review:</label>
+        <input type="text" class="form-control" name="review" value=<%= po.review %>><br>
+        <label for="topics">Major topics covered:</label>
+        <input type="text" class="form-control" name="topics" value=<%= po.topics %>><br>
+        <label for="describe">Description:</label>
+        <textarea name="describe" class="form-control" id="taa" placeholder=<%= po.describe %>></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary" name="button">Submit</button>
+</form>
